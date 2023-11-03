@@ -15,6 +15,7 @@ namespace Labb_3___Polymorphism
         }
         public void DisplayArea()
         {
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine($"Arean på fyrkanten är: {Area()}");
         }
         public override double Area()
