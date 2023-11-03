@@ -4,7 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Rectangle rectangle = new Rectangle();
+            rectangle.DisplayArea();
+            Square square = new Square();
+            square.DisplayArea();
+            Circle circle = new Circle();
+            circle.DisplayArea();
         }
     }
 }
